@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+/* *：这是对整个网页的一个默认设置，如果需要修改可以在每个项目下面单独加代码修改，
+    有一些英文可以看懂的比较好理解。
+    其中，float是悬浮，在导航栏和联系我们需要让字横着排列
+    margin-left是这个块里面的字或者图片啥的左边的间隔
+    list-style-type: none; 因为用了ul无序列表，前面加这句代码就不会显示黑点，不理解可以删掉那段代码看看。
+    所有的东西都需要加背景图片，用 background-image: url("文件位置"); 来添加。
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+body{
+        background-color: #D3968C;
+}
+
+#all{
+    width: 960px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+#head{
+    width: 960px;
+    height: 80px;
+    margin: auto;
+    float: left;
+}
+
+#title{
+    float: left;
+    width: 160px;
+    height: 80px;
+}
+
+#nav{
+    float: left;
+    width: 700px;
+    height: 80px;
+}
+#other{
+    float: left;
+    width: 100px;
+    height: 80px;
+}
+
+#head li{
+    list-style-type: none;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#main{
+    height: 500px;
+    /* 这里要自己改东西，等添加之后再写，添加的东西多高度不够就把height改大点。*/
+}
+
+#link{
+    height: 40px;
+}
+#link li{
+    list-style-type: none;
+    margin-left: 150px;
+    float: left;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}

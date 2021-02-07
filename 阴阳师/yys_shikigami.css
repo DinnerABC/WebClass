@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 14px;
+    font-family: "宋体";
+}
+body {
+    background-color: #D3968C;
+}
+#all {
+    width: 1007px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+#head {
+    widows: 1000px;
+    background-color: #616161;
+}
+#nav {
+    width: 1007px;
+    height: 195px;
+    background: url("pic/nav1.jpg");
+    margin: auto;
+}
+#nav ul {
+    margin-left: 100px;
+    margin-top: 8px;
+}
+#nav li {
+    list-style-type: none;
+    float: left;
+    margin-right: 50px;
+    font-family: "黑体";
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+    width: 80px;
+    text-align: center;
+}
+#nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+#nav li a:hover {
+    color: #8b1f1c;
+    background-image: url("pic/nav_bj.png");
+    line-height: 24px;
+}
+#main {
+    width: 1007px;
+    height: auto;
+    background-color: #FCEED3;
+    margin: auto;
+}
+#m1 {
+    width: 1007px;
+    padding: 5px;
+    height: 225px;
+}
+#login {
+    background-image: url("pic/login_bj.jpg");
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 210px;
+    float: left;
+    text-align: center;
+}
+#ad_img {
+    width: 785px;
+}
+#m1 label {
+    color: #000000;
+    display: block;
+    width: 80px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.user {
+    border: 1px solid #9c750e;
+    background-color: #FCEED3;
+    width: 110px;
+    line-height: 24px;
+    color: #000000;
+    position: relative;
+    top: -2px;
+    left: 30px;
+}
+.button {
+    background-image: url("pic/login_btn.jpg");
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 66px;
+    color: #ffffff;
+    border: 0px;
+    position: relative;
+    top: 17px;
+}
+#login a{
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    top: 70px;
+    color: #041345;
+    font-size: 25px;
+    font-family: 幼圆;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo {
+    float: left;
+}
+.tupian {
+    float: right;
+}
+#m2 {
+    width: 1007px;
+    height: 260px;
+    background-color: #5F7A90;
+    margin-top: -px;
+}
+#m2 #hlzx {
+    width: 600px;
+    height: 255px;
+    background: #5F7A90;
+    margin-left: 0px;
+    float: left;
+}
+#m2 #hlzx_pic1 {
+    width: 160px;
+    height: 200px;
+    border: 1px solid #5F7A90;
+    margin: 5px 0px 0px 10px;
+    float: left;
+}
+#m2 #hlzx dl {
+    width: 360px;
+    float: left;
+    margin: 5px 0px 0px 40px;
+}
+#m2 #hlzx dt {
+    font-weight: bold;
+    line-height: 30px;
+}
+#m2 #hlzx dd {
+    line-height: 24px;
+}
+#m2 #hlzx ul {
+    float: left;
+    margin-left: 50px;
+     
+}
+#m2 #hlzx ul li {
+    line-height: 24px;
+}
+#m2 #hlzx a {
+    color: #000000;
+    text-decoration: none;
+}
+#m2 #hlzx a:hover {
+    color: #FFFFFF;
+}
+#m2 #show {
+    width: 330px;
+    height: 255px;
+    float: right;
+    background-color: #5F7A90;
+    margin-right: 5px;
+}
+#m2 #show #video {
+    border: #5F7A90 solid 6px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#m3{
+    width: 1007px;
+    height: 750px;
+    background-color: #FFF9EA
+}
+#m3 dl{
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+#m3 dl dd{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#m3 dl dd a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #D09D27;
+}
+#m3 dl dd a:hover{
+    color: #C40003;
+}
+#link{
+    width:1007px;
+    height: 30px;
+    background-color: #A47A6A;
+    margin: auto;
+}
+#link li{
+    float:left;
+    list-style: none;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+#link li a{
+    color: #6A0001;
+    text-decoration: none;
+}
+#ling li a:hover{
+    color: #FF9698;
+}
+#foot{
+    background-color: #0D0E18;
+    height: 450px;
+}
+#foot dl{
+    float: left;
+    margin-left: 190px;
+}
+#foot dl dd{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: 幼圆;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#foot h1{
+    width: 1007px;
+    color: #FFFFFF;
+    float: left;
+    margin-top:40px;
+    text-align: center;
+    font-size: 17px
+}
+#foot h2{
+    width: 1007px;
+    color: #FFFFFF;
+    float: left;
+    margin-top:10px;
+    text-align: center;
+    font-size: 17px
+}

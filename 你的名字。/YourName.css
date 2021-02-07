@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-size: 18px;
+    text-indent: 2em;
+}
+
+#banner{
+  
+    background:url("resource/banner.jpg");
+    height: 80px;
+}
+
+#banner h1{
+    line-height: 80px;
+    text-align:center;
+    color:beige;
+}
+
+#chuanzuo{
+    background-color: #F6B2D3;
+}
+
+h2,h3{
+    background-color:#375683;
+    height: 40px;
+    line-height: 40px;
+    color:aliceblue;
+    text-indent: 10px;
+}
+
+#backg{
+    height:400px;
+    background-image: url("resource/background.jpg");
+    background-size: 610px 300px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color:#A2C8D2;
+}
+
+ul{
+    line-height: 40px;
+    font-family: "微软雅黑";
+}
+
+#container img{
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#container h3{
+    clear:both;
+}
+
+#container p{
+    height: 40px;
+    line-height: 60px;
+}
+
+#container a{
+    text-decoration: none;
+    color:#5F7A90;
+}

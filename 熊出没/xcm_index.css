@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+#all{
+    width:960px;
+    margin: auto;
+    background-color: #EABFC8;
+}
+
+#header img{
+    margin-left: 21px;
+    align-content: center;
+}
+
+#nav {
+    width: 960px;
+    height: 50px;
+    background: url("image/nav_bg.jpg");
+    margin: auto;
+}
+#nav ul {
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+#nav li {
+    list-style-type: none;
+    float: left;
+    margin-right: 50px;
+    font-family: "黑体";
+    line-height: 22px;
+    margin-top: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    display: block;
+}
+#nav li a:hover {
+    color: #8b1f1c;
+    line-height: 24px;
+}
+
+h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: "幼圆";
+    font-weight: bold;
+    color: #FDD949;
+    margin-bottom: 10px;
+}
+
+#jianjiekuang{
+    margin-top: 10px;
+}
+#jianjiekuang p {
+       font-size: 16px;
+    font-family: "黑体";
+         font-weight: bold;
+    margin: 30px;
+}
+
+#renwujieshao{
+    height: 700px;
+}
+
+#renwujieshao img{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#renwujieshao h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#renwujieshao p{
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-right: 60px;
+    
+}
+
+#donghua{
+    width: 960px;
+    height: 750px;
+    background-color: #FFF9EA
+}
+#donghua dl{
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+#donghua dl dd{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#donghua dl dd a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #D09D27;
+}
+#donghua dl dd a:hover{
+    color: #C40003;
+}
+
+#dianying{
+    width: 960px;
+    height: 810px;
+    background-color: #FFF9EA
+}
+#dianying dl{
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+#dianying dl dd{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#dianying dl dd a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #D09D27;
+}
+#dianying dl dd a:hover{
+    color: #C40003;
+}
+
+#zhoubian{
+    height: 500px;
+}
+
+#zhoubian1{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#zhoubian2 img{
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+#foot {
+    width: 960px;
+    height: 50px;
+    margin: auto;
+    
+}
+#foot ul {
+    margin-left: 130px;
+    margin-top: 8px;
+}
+
+#foot li {
+    list-style-type: none;
+    float: left;
+    margin-right: 50px;
+    font-family: "黑体";
+    line-height: 22px;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#foot li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    display: block;
+}
+#foot li a:hover {
+    color: #8b1f1c;
+    line-height: 24px;
+}
+
+#self{
+    background: #000000;
+}
+
+#self p{
+    width: 960px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+}

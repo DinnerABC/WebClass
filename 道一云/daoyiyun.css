@@ -1,0 +1,59 @@
+#nav_ul li{
+    list-style-type:none;
+    float: left;
+    margin-left: 45px;
+    align-content: center;
+    font-size: 20px;
+}#nav_ul li a{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+#button_two img{
+    margin-left: 40px;
+}
+
+#login_text1{
+    align-content: right;
+    margin-top: 0px;
+    font-size: 35px;
+}
+#login_text2{
+    margin-top: 10px;
+}
+
+#login{
+    background-image: url("img/AD.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#login img{
+    width: 50px;
+}
+#newNew{
+    border:solid 1px #FF0004;
+    width: 75px;
+    margin-left: 30px;
+    color: #FF0004;
+}
+#yizhanshi{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    
+}
+#dongtai_ul li{
+    list-style-type:none;
+    align-content: center;
+}
+#chanpin p{
+    text-align: center;
+}
+
+#foot p{
+    text-align: center;
+}
+
+#foot1 p{
+    text-align: center;
+}

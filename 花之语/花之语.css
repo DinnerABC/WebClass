@@ -1,0 +1,32 @@
+/* CSS Document */
+
+h1{
+    text-align: center;
+    font-size:1.8em;
+    color: #690B0D;
+}
+
+a{
+    text-align: center;
+    color: #B313C5;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.dierduan{
+    color:#FFFFFF;
+    background-color: #920537;
+    font-family: "宋体";
+}
+
+.photo{
+    float: left;
+
+}
+
+.disanduan,.jiewei{
+    text-decoration: underline;
+    color: #F99A00;
+    font-style:oblique;
+    
+}

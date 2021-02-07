@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="daoyiyun.css" rel="stylesheet" type="text/css">
+<title>无标题文档</title>
+</head>
+
+<body>
+<!-大边框,这里设置一个大边框目的是不让下面的模块超过这个长度-->
+<table border="1" width="100%">
+  <!-广告部分-->
+  <tr><img src="img/道一云标签栏.jpg" width="100%" alt=""></tr>
+  <tr><!-导航栏-->
+    <td width="30%"><img src="img/zhanluetouzi.png" width="100%" alt=""></td>
+    <!-战略投资-->
+    <td width="40%"><!-nav-->
+      
+      <ul id="nav_ul">
+        <!-无序列表，在css中设置样式-->
+        <li><a href="#">产品</a></li>
+        <li><a href="#">解决方案</a></li>
+        <li><a href="#">学院</a></li>
+        <li><a href="#">增值服务</a></li>
+      </ul></td>
+    <td width="30%" id="button_two"><img src="img/mianfeikaitong.png" alt=""><img src="img/guanlipingtai.png" alt=""></td>
+    <!-两个按钮--> 
+  </tr>
+  <table id="login" border="1" width="100%" height="300px">
+    <!-登录-->
+    <tr>
+      <td width="35%"></td>
+      <!-空白占位-->
+      <td width="40%"><!-登录处-->
+        
+        <p id="login_text1"><b>一站式智能办公平台</b></p>
+        <p id="login_text2">30%五百强企业都在用道一云与企业微信</p>
+        <form>
+          <input type="text" class="user" size="15" maxlength="8" placeholder="请输入手机号">
+          <input type="submit" class="button" value="免费试用30天" style="background-color: #FF0004">
+        </form></td>
+      <td width="30%"></td>
+      <!-空白占位-->
+      <td width="5%"><img src="img/zaixianzixun.png" alt=""> <img src="img/dianhuazixun.png" alt=""> <img src="img/mianfeishiyong.png" alt=""></td>
+      <!-咨询处--> 
+    </tr>
+  </table>
+  <table border="1" width="100%">
+    <!-最新资讯处-->
+    <tr>
+      <td width="10%"><p id="newNew">最新资讯</p></td>
+      <td width="30%"><p>腾讯投资道一云联合拓展智能办公市场</p></td>
+      <td width="30%"><p>免费领取营销小程序：道一云小站</p></td>
+      <td width="30%"><p>注册免费领取《企业微信办公指南》</p></td>
+    </tr>
+  </table>
+  <tr> <!-文字部分-->
+    <p id="yizhanshi"><b>一站式智能办公平台，让工作更有效</b></p>
+  </tr>
+  <table border="1" width="100%">
+    <tr>
+      <td width="60%"><img src="img/effective.png" alt=""></td>
+      <!-图片-->
+      <td width="40%"><!-右边文字-->
+        
+        <h2>OA</h2>
+        <h3>智能协同 高效协作</h3>
+        <h4>智能表单&gt;智能会议&gt;报销</h4>
+        <h2>HR</h2>
+        <h3>人事招聘培训文化全覆盖</h3>
+        <h4>培训大学&gt;企业文化</h4>
+        <h2>CRM</h2>
+        <h3>微信互通高效获客</h3>
+        <h4>营销小程序&gt;微信互通&gt;销售流程</h4></td>
+    </tr>
+  </table>
+  <table border="1" width="100%">
+    <tr>
+      <td><table border="1" width="100%">
+          <tr> <!-标题-->
+            <td width="45%"><p>产品更新</p></td>
+            <td width="45%"><p>道一动态</p></td>
+            <td width="10%"><p>更多</p></td>
+          </tr>
+          <tr>
+            <td><ul>
+                <!-第一列内容，使用无序列表-->
+                <li>01-18 告别2019,2020道一人继续踔厉奋发</li>
+                <li>12-30 直播回顾 一套高端的年会方案，让你的年会... </li>
+                <li>11-20 活动回顾 企业管理数字化升级的答案都在这里</li>
+              </ul></td>
+            <td><ul>
+                <!-第二列内容-->
+                <li>01-08 2020，企业数字创变【道】上步履不止！</li>
+                <li>12-02 活动回顾 聊一聊数字化创新那些事儿</li>
+                <li>11-14 腾讯投资道一云 联合拓展智能办公市场</li>
+              </ul></td>
+          </tr>
+        </table></td>
+      <td width="30%"><img src="img/touzi.png" alt="" width="100%"></td>
+    </tr>
+  </table>
+  <!-最后这个比较复杂，有产品列表，投诉建议，还有二维码图片，所以分成三部分，其中两部分是文字，一部分是图片,这里还是选择使用两个table来写-->
+  <table  id="foot" border="1" width="100%">
+    <!-第一个table：产品列表+二维码图片-->
+    <tr><!-分成两列--> 
+      <!-根据网页，这里面有6列东西，所以需要6个td，标题一行，内容一行-->
+      <td width="80%"><table border="1" width="100%">
+          <!-这里设置table的原因：在上一个table里面我们设置了两列，现在编辑的是第一列。我们要在第一列里面再次分块，也就是刚才的两行六列-->
+          <tr id="chanpin"> <!-标题-->
+            <td width="13%"><p>产品</p></td>
+            <td width="13%"><p>解决方案</p></td>
+            <td width="13%"><p>学院</p></td>
+            <td width="13%"><p>动态</p></td>
+            <td width="13%"><p>合作/服务</p></td>
+            <td width="13%"><p>关于</p></td>
+          </tr>
+          <!-内容，一共6列，6对td，每一个都用无序列表来写，注意：每一对就是一列-->
+          <tr>
+            <td><ul>
+                <li>企业微信应用</li>
+                <li>道一云OA</li>
+                <li>道一云CRM</li>
+                <li>道一云HR</li>
+              </ul></td>
+            <td><ul>
+                <li>教育行业</li>
+                <li>金融行业</li>
+                <li>快消行业</li>
+                <li>智慧党建</li>
+              </ul></td>
+            <td><ul>
+                <li>产品手册</li>
+                <li>常见问题</li>
+                <li>进阶技巧</li>
+                <li>使用秘笈</li>
+              </ul></td>
+            <td><ul>
+                <li>更新公告</li>
+                <li>道一云动态</li>
+              </ul></td>
+            <td><ul>
+                <li>合作伙伴</li>
+                <li>实施定制</li>
+                <li>SAP微信集成</li>
+              </ul></td>
+            <td><ul>
+                <li>关于我们</li>
+                <li>招贤纳士</li>
+                <li>申请链接</li>
+              </ul></td>
+          </tr>
+        </table></td>
+      <td width="20%"><img src="img/QRcode.png" alt="" width="100%"></td><!-这是二维码-->
+    </tr>
+  </table>
+  <div id="foot1" width="100%">   <!-写到这里有个bug，设置table不能用id控制这部分，所以我用了div来控制。-->
+    <!-尾部，简单的方式直接用p来排列-->
+      <p>咨询热线：400-111-2626 | 投诉建议：ts@do1.com.cn | 公司总部：广州市天河区员村一横路3号华颖轩道一云 关注微博 关注知乎主页</p>
+      <p>Copyright @ 2004-2019 DO1.com.cnn All Rights Reserved 粤B2-20062018号 | 广东道一信息技术股份有限公司 技术支持</p>
+      <p> CRM客户关系管理系统  CRM系统 Hi现场 LOGO设计 OA系统 SEO培训 仓库管理软件 企业培训 企业微信官网 企微云学院 企微云管理平台</p>
+      <p> 企微官网 会员管理系统 免费建站 北京公司注册 呼叫中心系统 商标查询 商标查询 大作设计图库 工作计划软件 广州网站建设 微信公众平台 </p>
+      <p> 微信小程序 微信编辑器 找果网 收银系统 海外推广 熊掌号 短信平台 短信群发 短网址 联众云软文 自助建站 财务软件 软件产品网 道云官网 </p>
+      <p> 道一云小站 项目管理软件 香港空间</p>
+  </div>
+</table>
+</body>
+</html>
